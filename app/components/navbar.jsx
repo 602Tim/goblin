@@ -2,22 +2,24 @@
 
 import { useSession, signOut } from "next-auth/react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
-    const [isLoginFromGoogle, setIsLoginFromGoogle] = useState(false);
     const { data: session } = useSession();
+    const [user, setUser] = useState(null);
+    const [isLoginFromGoogle, setIsLoginFromGoogle] = useState(false);
 
-    const oauthUser = session?.user;
-    const sessionUser = JSON.parse(sessionStorage.getItem("user"));
-    let user;
-    if (oauthUser) {
-        user = oauthUser;
-        setIsLoginFromGoogle(true);
-    } else if (sessionUser) {
-        user = sessionUser;
-    } else {
-    }
+    useEffect(() => {
+        const oauthUser = session?.user;
+        const sessionUser = sessionStorage.getItem("user");
+
+        if (oauthUser) {
+            setUser(oauthUser);
+            setIsLoginFromGoogle(true);
+        } else if (sessionUser) {
+            setUser(JSON.parse(sessionUser));
+        }
+    }, [session]);
 
     const getRoleLinks = () => {
         if (!user) return [];
@@ -79,7 +81,7 @@ export default function Navbar() {
                             <button
                                 onClick={() => {
                                     if (isLoginFromGoogle) {
-                                        signOut(); // 登出 Google 帳號
+                                        signOut();
                                     } else {
                                         sessionStorage.removeItem("user");
                                         window.location.href = "/login";
