@@ -1,0 +1,19 @@
+{
+  "/api/kitchen/route": "app/api/kitchen/route.js",
+  "/api/menu/route": "app/api/menu/route.js",
+  "/api/order/[orderId]/route": "app/api/order/[orderId]/route.js",
+  "/api/order/[orderId]/status/route": "app/api/order/[orderId]/status/route.js",
+  "/api/order/checkout/route": "app/api/order/checkout/route.js",
+  "/api/order/list/route": "app/api/order/list/route.js",
+  "/api/order/ready/route": "app/api/order/ready/route.js",
+  "/api/order/route": "app/api/order/route.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/kitchen/page": "app/kitchen/page.js",
+  "/login/page": "app/login/page.js",
+  "/menu/page": "app/menu/page.js",
+  "/orders/page": "app/orders/page.js",
+  "/orders/pending/page": "app/orders/pending/page.js",
+  "/orders/ready/page": "app/orders/ready/page.js",
+  "/page": "app/page.js"
+}

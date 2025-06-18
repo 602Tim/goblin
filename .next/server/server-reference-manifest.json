@@ -1,0 +1,125 @@
+{
+  "node": {
+    "7fd691921fda169e2dab6445c454d571f3988b3ca9": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": "[project]/.next-internal/server/app/checkout/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/menu.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/kitchen/page": {
+          "moduleId": "[project]/.next-internal/server/app/kitchen/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "[project]/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/menu/page": {
+          "moduleId": "[project]/.next-internal/server/app/menu/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/orders/page": {
+          "moduleId": "[project]/.next-internal/server/app/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/orders/pending/page": {
+          "moduleId": "[project]/.next-internal/server/app/orders/pending/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/orders/ready/page": {
+          "moduleId": "[project]/.next-internal/server/app/orders/ready/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/checkout/page": "action-browser",
+        "app/kitchen/page": "action-browser",
+        "app/login/page": "action-browser",
+        "app/menu/page": "action-browser",
+        "app/orders/page": "action-browser",
+        "app/orders/pending/page": "action-browser",
+        "app/orders/ready/page": "action-browser",
+        "app/page": "action-browser"
+      }
+    },
+    "7f9a3f1e383f6fec2456938bc1aa06aaebb6660a83": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": "[project]/.next-internal/server/app/checkout/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/menu.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/kitchen/page": {
+          "moduleId": "[project]/.next-internal/server/app/kitchen/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/login/page": {
+          "moduleId": "[project]/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/menu/page": {
+          "moduleId": "[project]/.next-internal/server/app/menu/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/orders/page": {
+          "moduleId": "[project]/.next-internal/server/app/orders/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/orders/pending/page": {
+          "moduleId": "[project]/.next-internal/server/app/orders/pending/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/orders/ready/page": {
+          "moduleId": "[project]/.next-internal/server/app/orders/ready/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/checkout/page": "action-browser",
+        "app/kitchen/page": "action-browser",
+        "app/login/page": "action-browser",
+        "app/menu/page": "action-browser",
+        "app/orders/page": "action-browser",
+        "app/orders/pending/page": "action-browser",
+        "app/orders/ready/page": "action-browser",
+        "app/page": "action-browser"
+      }
+    },
+    "7fc3477b1d6d7c39f584eda12d7e392d9b0c666788": {
+      "workers": {
+        "app/kitchen/page": {
+          "moduleId": "[project]/.next-internal/server/app/kitchen/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/orders/pending/page": {
+          "moduleId": "[project]/.next-internal/server/app/orders/pending/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/kitchen/page": "action-browser",
+        "app/orders/pending/page": "action-browser"
+      }
+    },
+    "7fcf98468f5917bf8f7794860eddebbc2adcf0c623": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": "[project]/.next-internal/server/app/checkout/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/menu.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/checkout/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "qioej7Rr+DapMVRjT3wzHDE+na5+Kz7btCuTfqegxzo="
+}

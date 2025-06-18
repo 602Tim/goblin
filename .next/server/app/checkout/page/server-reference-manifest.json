@@ -1,0 +1,38 @@
+{
+  "node": {
+    "7fd691921fda169e2dab6445c454d571f3988b3ca9": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": "[project]/.next-internal/server/app/checkout/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/menu.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/checkout/page": "action-browser"
+      }
+    },
+    "7f9a3f1e383f6fec2456938bc1aa06aaebb6660a83": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": "[project]/.next-internal/server/app/checkout/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/menu.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/checkout/page": "action-browser"
+      }
+    },
+    "7fcf98468f5917bf8f7794860eddebbc2adcf0c623": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": "[project]/.next-internal/server/app/checkout/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/menu.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/checkout/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

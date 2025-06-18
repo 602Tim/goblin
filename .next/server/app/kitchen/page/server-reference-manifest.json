@@ -1,0 +1,38 @@
+{
+  "node": {
+    "7fd691921fda169e2dab6445c454d571f3988b3ca9": {
+      "workers": {
+        "app/kitchen/page": {
+          "moduleId": "[project]/.next-internal/server/app/kitchen/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/kitchen/page": "action-browser"
+      }
+    },
+    "7f9a3f1e383f6fec2456938bc1aa06aaebb6660a83": {
+      "workers": {
+        "app/kitchen/page": {
+          "moduleId": "[project]/.next-internal/server/app/kitchen/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/kitchen/page": "action-browser"
+      }
+    },
+    "7fc3477b1d6d7c39f584eda12d7e392d9b0c666788": {
+      "workers": {
+        "app/kitchen/page": {
+          "moduleId": "[project]/.next-internal/server/app/kitchen/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/notification.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/kitchen/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
